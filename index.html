@@ -58,6 +58,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contactMe">Contact Me</a>
+          </li>
         </ul>
       </div>
     </nav>
@@ -307,7 +310,26 @@
           </ul>
         </div>
       </section>
-
+      
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="contactMe">
+        <div class="container">  
+          <form id="contact" action="https://formspree.io/moqkgveb" method="POST">
+            <h3>Get In Touch</h3>
+            <fieldset>
+              <input placeholder="Your name" name="_name" type="text" tabindex="1" required autofocus>
+            </fieldset>
+            <fieldset>
+              <input placeholder="Your Email Address" name="_replyto" type="email" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+              <textarea name="message" placeholder="Type your message here...." tabindex="5" required></textarea>
+            </fieldset>
+            <fieldset>
+              <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            </fieldset>
+          </form>
+        </div> 
+      </section>
     </div>
 
     <!-- Bootstrap core JavaScript -->
